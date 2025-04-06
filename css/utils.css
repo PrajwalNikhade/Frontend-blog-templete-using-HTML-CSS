@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron&display=swap');
+
+:root {
+    --font: "Inter",
+        serif;
+}
+.max-width-1{
+max-width: 80vw;
+
+}
+.max-width-2{
+max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.height-100pc{
+    height: 100%;
+}
+
+.btn{
+
+}
+
+.dflex{
+    display: flex;
+}

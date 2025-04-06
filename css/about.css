@@ -1,0 +1,48 @@
+.about-button {
+	background-color: skyblue;
+	padding: 20px;
+	border-radius: 15px;
+}
+.about-button:hover {
+	background-color: lightblue;
+	font-weight: 600;
+}
+.about {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: url(istockphoto-1395313484-612x612.jpg);
+	/* opacity: 0.5; */
+	background-size: cover;
+}
+
+.about > h1,
+.about > h2,
+.about > p {
+	z-index: 10;
+	color: white;
+}
+.home-articles {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}
+
+.home-article {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	flex-grow: 3;
+	flex-flow: column;
+	flex-shrink: 3;
+}
+
+.m-auto {
+	color: black;
+	background-color: skyblue;
+	align-self: center;
+}
+.m-auto > h2 {
+	margin: 10px;
+}
